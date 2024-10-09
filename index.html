@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="barraCima">
+        <div class="logo">
+            <h3 id="logo">Rei das Torneiras</h3>
+        </div>
+
+        <div class="botoes">
+            <h3 class="botaoBarCima" id="sobre">Sobre</h3>
+            <h3 class="botaoBarCima" id="produtos">Produtos</h3>
+            <h3 class="botaoBarCima" id="contatos">Contatos</h3>
+        </div>
+    </div>
+    
+    <div class="imgTorneira">
+        <img width="35%" src= "assets/torneira.png">
+
+        <div class ="textoImgTorneira">
+            <h1> Somente as melhores torneiras.</h1>
+
+            <h3>
+                Encante-se com as nossas revolucionárias torneiras de <br/>  banheiro, cozinha, gourmet, com filtro, 
+                prateado, <br/> monocromado, dourado, de barril, de mesa, de parede, <br>
+                bica alta, bica baixa, pressurizada, eletrônica, 
+                fecho <br> automático, touch e de jardim. 
+            </h3>
+        </div>
+    </div>
+
+    <div class = "vamosConversar">
+        <h1>Interessado? Vamos conversar!</h1>
+        
+    </div>
+
+    <div class = "hidraulica">
+        <h3>Iremos garantir a torneira certa para você saciar <br/>
+            todas as suas necessidades hidráulicas do dia a dia.</h3>
+    </div>
+
+    <div class = "form">
+        <form id="cadastroF">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required />
+
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" name="sobrenome" required />
+
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" name="email" required />
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+body {
+    background: #696369;
+    margin: 0px;
+}
+
+button{
+    font-family: Montserrat;
+}
+
+form{
+    display: flex;
+flex-direction: column;
+}
+
+label{
+    padding: 10px 0px;
+}
+
+input{
+    padding: 10px 10px;
+    border-radius: 4px;
+    border: 2px solid darkgray;
+}
+button{
+    padding: 13px 40px;
+    margin-top: 15px;
+    background-color: #dad8da;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color:  #9bbffd;
+}
+
+.barraCima{
+    background-color: #292629;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.logo {
+    font-family: Cormorant Garamond;
+    background-color: #292629;
+    color: #ddd9d4;
+    font-size: 17px;
+
+    margin: 0px;
+    padding: 0px;
+    padding: 0px 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.logo:hover{
+    background-color: #353135;
+    cursor: default;
+}
+
+.botoes {
+    font-family: Montserrat;
+    background-color: #292629;
+    color: #ddd9d4;
+
+    margin: 0px;
+    padding: 0px;
+    padding-right: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+#sobre:hover{
+    cursor: default;
+}
+
+#produtos:hover{
+    cursor: default;
+}
+
+#contatos:hover{
+    cursor: default;
+}
+
+.botaoBarCima {
+    margin: 20px 30px;
+}
+
+.imgTorneira {
+    color:#ddd9d4;
+    background-color: #353135;
+
+    padding:30px 100px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.textoImgTorneira{
+    color:white;
+    font-family: Montserrat;
+
+    margin-top: 115px;
+    margin-left: 180px;
+}
+
+.vamosConversar{
+    background-color: #ddd9d4;
+    color:#353135;
+    font-family: Montserrat;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.hidraulica{
+    background-color: #ddd9d4;
+    color:#353135;
+    font-family: Montserrat;
+    font-size: 15px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    font-family: Montserrat;
+    border-radius: 10px;
+    background-color: #f3f2f3;
+    margin: 150px 450px;
+
+    padding: 30px 60px;
+}
